@@ -17,12 +17,12 @@ body {
     background-color: rgb(68, 68, 68)
 }
 
-.question-box {
+.container {
     width: 800px;
     max-width: 80%;
     background-color: white;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 5px 10px;
     box-shadow: 0 0 10px 2px;
 }
 
@@ -48,8 +48,40 @@ body {
     background-color: blueviolet;
 }
 
-.large-font, .start-button {
+.large-font {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.start-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+} 
+.hide {
+    display: none;
+}
+.questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }

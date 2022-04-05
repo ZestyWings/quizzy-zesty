@@ -8,38 +8,44 @@
     <title>Quizzy Zesty</title>
 </head>
 <body>
-    <header>
-        <div class="large-font">Quizzy Zesty</div>
-        <button class="start-button">Start</button>
-        <div class="highscores">View Highscores</div>
-        <div class="timer">timer</div>    
-    </header>
-        <main>
-            <div class="question-box" class ="hide">
-                <div id="questions">Question</div>
-                <div id="answer-buttons" class = "button-grid">
-                    <button class="button">Answer 1</button>
-                    <button class="button">Answer 2</button>
-                    <button class="button">Answer 3</button>
-                    <button class="button">Answer 4</button>
-                </div>
+
+    
+<main>
+           
+<div class="container">
+            <div class="large-font">Quizzy Zesty</div>
+            <button class="start-btn" id="start-btn">Start</button>
+    
+        <div id="question-class" class="hide">
+            <div class="questions" id="questions">Question</div>
+            <div id="answer-buttons" class = "button-grid">
+                <button class="button">Answer 1</button>
+                <button class="button">Answer 2</button>
+                <button class="button">Answer 3</button>
+                <button class="button">Answer 4</button>
             </div>
-            <div class="final-score" class="hide">
-                <div class="large-font">Final Score</div>
-                <div class="final-score">0</div>
-                <div class="initials">Enter Initials</div>
-                <button class="submit-button">Submit</button>
+        </div>    
+        <div class="timer">Timer</div>    
+    </div>
+    <div class="container">
+        <div class="final-score" class="hide">
+            <div class="large-font">Final Score</div>
+            <div class="final-score">0</div>
+            <div class="initials">Enter Initials</div>
+            <button class="submit-button">Submit</button>
+        </div>
+        <div class="highscores" class="hide">
+            <div class="large-font">Highscores</div>
+            <div class="previous-scores"> 
+                <li>Previous Scores</li>
+                <li>Previous Scores</li>
+                <li>Previous Scores</li>
             </div>
-            <div class="highscores" class="hide">
-                <div class="large-font">Highscores</div>
-                <div class="previous-scores"> 
-                    <li>Previous Scores</li>
-                    <li>Previous Scores</li>
-                    <li>Previous Scores</li>
-                </div>
-                <button class="back-button">Back</button>
-                <button class="clear-highscores">Clear Highscores</button>
-            </div> 
+            <button class="back-button">Back</button>
+            <button class="clear-highscores">Clear Highscores</button>
+        </div> 
+       
+    </div>
 
 
 </main>
